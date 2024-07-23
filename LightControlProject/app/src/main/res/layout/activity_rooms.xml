@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".RoomsActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ExitButton"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.614"/>
+
+    <Button
+        android:id="@+id/Setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SettingButton"
+        android:text="Setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.853"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <TableLayout
+        android:layout_width="193dp"
+        android:layout_height="186dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r1"
+                tools:text="r1" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r2"
+                tools:text="r2" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r3"
+                tools:text="r3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r4"
+                tools:text="r4" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r5"
+                tools:text="r5" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r6"
+                tools:text="r6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r7"
+                tools:text="r7" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r8"
+                tools:text="r8" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="63dp"
+                android:layout_height="55dp"
+                android:onClick="OpenSwitchActivity"
+                android:text="r0"
+                tools:text="r0" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
